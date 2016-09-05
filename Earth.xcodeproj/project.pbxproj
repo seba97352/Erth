@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8379040276E030956E0638C5 /* Pods_Earth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592358177B613546C4105906 /* Pods_Earth.framework */; };
 		C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */; };
 		C4AD6C101D7E28B3008D1836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */; };
 		C4AD6C131D7E28B3008D1836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AD6C111D7E28B3008D1836 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		592358177B613546C4105906 /* Pods_Earth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Earth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9782D9A9041CEF27A9775E08 /* Pods-Earth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Earth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Earth/Pods-Earth.release.xcconfig"; sourceTree = "<group>"; };
+		A5B666AABA5D92E99BBCB5FB /* Pods-Earth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Earth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Earth/Pods-Earth.debug.xcconfig"; sourceTree = "<group>"; };
 		C4AD6C0A1D7E28B3008D1836 /* Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8379040276E030956E0638C5 /* Pods_Earth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FDAAF66865AEB41A1627837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5B666AABA5D92E99BBCB5FB /* Pods-Earth.debug.xcconfig */,
+				9782D9A9041CEF27A9775E08 /* Pods-Earth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4AD6C011D7E28B3008D1836 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				C4AD6C241D7E28B3008D1836 /* EarthTests */,
 				C4AD6C2F1D7E28B3008D1836 /* EarthUITests */,
 				C4AD6C0B1D7E28B3008D1836 /* Products */,
+				6FDAAF66865AEB41A1627837 /* Pods */,
+				EF82CBDE87DE8C06A140E67A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +144,14 @@
 			path = EarthUITests;
 			sourceTree = "<group>";
 		};
+		EF82CBDE87DE8C06A140E67A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				592358177B613546C4105906 /* Pods_Earth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4AD6C351D7E28B3008D1836 /* Build configuration list for PBXNativeTarget "Earth" */;
 			buildPhases = (
+				CAFF613871F9CA05EA0B87E8 /* [CP] Check Pods Manifest.lock */,
 				C4AD6C061D7E28B3008D1836 /* Sources */,
 				C4AD6C071D7E28B3008D1836 /* Frameworks */,
 				C4AD6C081D7E28B3008D1836 /* Resources */,
+				5BDE06DC62F619CAD597A8EB /* [CP] Embed Pods Frameworks */,
+				E95806A59591E3AEE9983041 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +223,7 @@
 				TargetAttributes = {
 					C4AD6C091D7E28B3008D1836 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UQT23LWZ8B;
 					};
 					C4AD6C201D7E28B3008D1836 = {
 						CreatedOnToolsVersion = 7.3;
@@ -253,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BDE06DC62F619CAD597A8EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Earth/Pods-Earth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAFF613871F9CA05EA0B87E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E95806A59591E3AEE9983041 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Earth/Pods-Earth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4AD6C061D7E28B3008D1836 /* Sources */ = {
@@ -403,8 +479,10 @@
 		};
 		C4AD6C361D7E28B3008D1836 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B666AABA5D92E99BBCB5FB /* Pods-Earth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Earth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cecko.ios.Earth;
@@ -414,8 +492,10 @@
 		};
 		C4AD6C371D7E28B3008D1836 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9782D9A9041CEF27A9775E08 /* Pods-Earth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Earth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cecko.ios.Earth;
@@ -488,6 +568,7 @@
 				C4AD6C371D7E28B3008D1836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4AD6C381D7E28B3008D1836 /* Build configuration list for PBXNativeTarget "EarthTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +577,7 @@
 				C4AD6C3A1D7E28B3008D1836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4AD6C3B1D7E28B3008D1836 /* Build configuration list for PBXNativeTarget "EarthUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +586,7 @@
 				C4AD6C3D1D7E28B3008D1836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
