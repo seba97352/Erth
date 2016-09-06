@@ -17,6 +17,7 @@
 		C4AD6C1B1D7E28B3008D1836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AD6C191D7E28B3008D1836 /* LaunchScreen.storyboard */; };
 		C4AD6C261D7E28B3008D1836 /* EarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C251D7E28B3008D1836 /* EarthTests.swift */; };
 		C4AD6C311D7E28B3008D1836 /* EarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C301D7E28B3008D1836 /* EarthUITests.swift */; };
+		C4F3B0221D7F5BC2002605FF /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3B0211D7F5BC2002605FF /* CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C4AD6C2C1D7E28B3008D1836 /* EarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD6C301D7E28B3008D1836 /* EarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthUITests.swift; sourceTree = "<group>"; };
 		C4AD6C321D7E28B3008D1836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F3B0211D7F5BC2002605FF /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				C4AD6C191D7E28B3008D1836 /* LaunchScreen.storyboard */,
 				C4AD6C1C1D7E28B3008D1836 /* Info.plist */,
 				C4AD6C141D7E28B3008D1836 /* Earth.xcdatamodeld */,
+				C4F3B0211D7F5BC2002605FF /* CoreData.swift */,
 			);
 			path = Earth;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				C45FA0381D7F1D6200C9C913 /* Blog.swift in Sources */,
 				C4AD6C161D7E28B3008D1836 /* Earth.xcdatamodeld in Sources */,
 				C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */,
+				C4F3B0221D7F5BC2002605FF /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
