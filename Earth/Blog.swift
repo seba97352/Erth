@@ -8,9 +8,10 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 
-class blog {
+class myBlog {
     let idBlog: Int
     let dateBlog: String
     let partTextBlog: String
@@ -23,5 +24,10 @@ class blog {
         self.textBlog = textBlog
     }
     
+    
+}
+
+
+class Blog: NSManagedObject {
     
 }

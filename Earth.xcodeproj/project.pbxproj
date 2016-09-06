@@ -18,6 +18,7 @@
 		C4AD6C261D7E28B3008D1836 /* EarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C251D7E28B3008D1836 /* EarthTests.swift */; };
 		C4AD6C311D7E28B3008D1836 /* EarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C301D7E28B3008D1836 /* EarthUITests.swift */; };
 		C4F3B0221D7F5BC2002605FF /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3B0211D7F5BC2002605FF /* CoreData.swift */; };
+		C4F3B0241D7F738C002605FF /* Blog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3B0231D7F738C002605FF /* Blog+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C4AD6C301D7E28B3008D1836 /* EarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthUITests.swift; sourceTree = "<group>"; };
 		C4AD6C321D7E28B3008D1836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F3B0211D7F5BC2002605FF /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		C4F3B0231D7F738C002605FF /* Blog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Blog+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		C4AD6C0C1D7E28B3008D1836 /* Earth */ = {
 			isa = PBXGroup;
 			children = (
+				C4F3B0231D7F738C002605FF /* Blog+CoreDataProperties.swift */,
 				C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */,
 				C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */,
 				C45FA0371D7F1D6200C9C913 /* Blog.swift */,
@@ -344,6 +347,7 @@
 				C4AD6C101D7E28B3008D1836 /* ViewController.swift in Sources */,
 				C45FA0381D7F1D6200C9C913 /* Blog.swift in Sources */,
 				C4AD6C161D7E28B3008D1836 /* Earth.xcdatamodeld in Sources */,
+				C4F3B0241D7F738C002605FF /* Blog+CoreDataProperties.swift in Sources */,
 				C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */,
 				C4F3B0221D7F5BC2002605FF /* CoreData.swift in Sources */,
 			);

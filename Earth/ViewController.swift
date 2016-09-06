@@ -15,11 +15,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myImage: UIImageView!
 
-    var blogs = [blog]()
+    var blogs = [myBlog]()
     var jsonArray: NSMutableArray?
     let bobovkaURL = "http://becomehero.eu/public/api.php/blogs?transform=1?filter[]=idBlog,le,3&filter[]=idBlog,ge,1,transform=1"
     
-    var NSBlogs = [NSManagedObject]()
+    var NSBlogs = [Blog]()
     var managedObjectContext: NSManagedObjectContext!
     
         override func viewDidLoad() {
@@ -44,17 +44,15 @@ class ViewController: UIViewController {
                     let textBlog = item["textBlog"] as! String
                     let dateBlog = item["dateBlog"] as! String
                     
-                    let newBlog = blog(idBlog: Int(idBlog)!, dateBlog: dateBlog, partTextBlog: partTextBlog, textBlog: textBlog)
+                    let newBlog = myBlog(idBlog: Int(idBlog)!, dateBlog: dateBlog, partTextBlog: partTextBlog, textBlog: textBlog)
                     self.blogs.append(newBlog)
                     
-                    let entity = NSEntityDescription.entityForName("Blog", inManagedObjectContext: self.managedObjectContext)
-                    let EntityBlog = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: self.managedObjectContext)
-                    
-                    EntityBlog.setValue(idBlog, forKey: "idBlog")
-                    EntityBlog.setValue(dateBlog, forKey: "dateBlog")
-                    EntityBlog.setValue(partTextBlog, forKey: "partTextBlog")
-                    EntityBlog.setValue(textBlog, forKey: "textBlog")
-                    
+                    let entityBLog = NSEntityDescription.insertNewObjectForEntityForName("Blog", inManagedObjectContext: self.managedObjectContext) as! Blog
+                    entityBLog.idBlog = idBlog
+                    entityBLog.dateBlog = dateBlog
+                    entityBLog.partTextBlog = partTextBlog
+                    entityBLog.textBlog = textBlog
+
                     do {
                         try self.managedObjectContext.save()
                         
@@ -66,7 +64,7 @@ class ViewController: UIViewController {
                 
                 print(self.blogs.count)
                 
-                self.NSBlogs = loadData("Blog")
+                self.NSBlogs = loadData("Blog") as! [Blog]
                 print(self.NSBlogs.count)
 
                 
