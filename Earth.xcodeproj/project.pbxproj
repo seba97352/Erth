@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8379040276E030956E0638C5 /* Pods_Earth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592358177B613546C4105906 /* Pods_Earth.framework */; };
+		C45FA0381D7F1D6200C9C913 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FA0371D7F1D6200C9C913 /* Blog.swift */; };
 		C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */; };
 		C4AD6C101D7E28B3008D1836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */; };
 		C4AD6C131D7E28B3008D1836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AD6C111D7E28B3008D1836 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		592358177B613546C4105906 /* Pods_Earth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Earth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9782D9A9041CEF27A9775E08 /* Pods-Earth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Earth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Earth/Pods-Earth.release.xcconfig"; sourceTree = "<group>"; };
 		A5B666AABA5D92E99BBCB5FB /* Pods-Earth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Earth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Earth/Pods-Earth.debug.xcconfig"; sourceTree = "<group>"; };
+		C45FA0371D7F1D6200C9C913 /* Blog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
 		C4AD6C0A1D7E28B3008D1836 /* Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */,
 				C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */,
+				C45FA0371D7F1D6200C9C913 /* Blog.swift */,
 				C4AD6C111D7E28B3008D1836 /* Main.storyboard */,
 				C4AD6C171D7E28B3008D1836 /* Assets.xcassets */,
 				C4AD6C191D7E28B3008D1836 /* LaunchScreen.storyboard */,
@@ -336,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4AD6C101D7E28B3008D1836 /* ViewController.swift in Sources */,
+				C45FA0381D7F1D6200C9C913 /* Blog.swift in Sources */,
 				C4AD6C161D7E28B3008D1836 /* Earth.xcdatamodeld in Sources */,
 				C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */,
 			);
