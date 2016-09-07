@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15G1004" minimumToolsVersion="Automatic">
     <entity name="Blog" representedClassName=".Blog" syncable="YES">
-        <attribute name="dateBlog" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="idBlog" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="partTextBlog" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="textBlog" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titlePost" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="Blog" positionX="-63" positionY="-18" width="128" height="105"/>

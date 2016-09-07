@@ -13,13 +13,13 @@ import CoreData
 
 class myBlog {
     let idBlog: Int
-    let dateBlog: String
+    let titlePost: String
     let partTextBlog: String
     let textBlog: String
     
-    init (idBlog: Int, dateBlog: String, partTextBlog: String, textBlog: String) {
+    init (idBlog: Int, titlePost: String, partTextBlog: String, textBlog: String) {
         self.idBlog = idBlog
-        self.dateBlog = dateBlog
+        self.titlePost = titlePost
         self.partTextBlog = partTextBlog
         self.textBlog = textBlog
     }

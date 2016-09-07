@@ -10,15 +10,20 @@
 		8379040276E030956E0638C5 /* Pods_Earth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592358177B613546C4105906 /* Pods_Earth.framework */; };
 		C45FA0381D7F1D6200C9C913 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45FA0371D7F1D6200C9C913 /* Blog.swift */; };
 		C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */; };
-		C4AD6C101D7E28B3008D1836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */; };
+		C4AD6C101D7E28B3008D1836 /* thisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C0F1D7E28B3008D1836 /* thisViewController.swift */; };
 		C4AD6C131D7E28B3008D1836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AD6C111D7E28B3008D1836 /* Main.storyboard */; };
 		C4AD6C161D7E28B3008D1836 /* Earth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C141D7E28B3008D1836 /* Earth.xcdatamodeld */; };
 		C4AD6C181D7E28B3008D1836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AD6C171D7E28B3008D1836 /* Assets.xcassets */; };
 		C4AD6C1B1D7E28B3008D1836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AD6C191D7E28B3008D1836 /* LaunchScreen.storyboard */; };
 		C4AD6C261D7E28B3008D1836 /* EarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C251D7E28B3008D1836 /* EarthTests.swift */; };
 		C4AD6C311D7E28B3008D1836 /* EarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD6C301D7E28B3008D1836 /* EarthUITests.swift */; };
+		C4D41F591D7F8933001BC48C /* myTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D41F581D7F8933001BC48C /* myTabViewController.swift */; };
+		C4D41F5B1D7F95F5001BC48C /* BlogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D41F5A1D7F95F5001BC48C /* BlogTableViewCell.swift */; };
+		C4D41F5D1D7FA5CA001BC48C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D41F5C1D7FA5CA001BC48C /* DetailViewController.swift */; };
+		C4D41F5F1D7FA980001BC48C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D41F5E1D7FA980001BC48C /* WebViewController.swift */; };
 		C4F3B0221D7F5BC2002605FF /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3B0211D7F5BC2002605FF /* CoreData.swift */; };
 		C4F3B0241D7F738C002605FF /* Blog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3B0231D7F738C002605FF /* Blog+CoreDataProperties.swift */; };
+		C4F3B0261D7F82F6002605FF /* BlogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3B0251D7F82F6002605FF /* BlogTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +50,7 @@
 		C45FA0371D7F1D6200C9C913 /* Blog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
 		C4AD6C0A1D7E28B3008D1836 /* Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4AD6C0F1D7E28B3008D1836 /* thisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisViewController.swift; sourceTree = "<group>"; };
 		C4AD6C121D7E28B3008D1836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4AD6C151D7E28B3008D1836 /* Earth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Earth.xcdatamodel; sourceTree = "<group>"; };
 		C4AD6C171D7E28B3008D1836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +62,13 @@
 		C4AD6C2C1D7E28B3008D1836 /* EarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AD6C301D7E28B3008D1836 /* EarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthUITests.swift; sourceTree = "<group>"; };
 		C4AD6C321D7E28B3008D1836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D41F581D7F8933001BC48C /* myTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTabViewController.swift; sourceTree = "<group>"; };
+		C4D41F5A1D7F95F5001BC48C /* BlogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogTableViewCell.swift; sourceTree = "<group>"; };
+		C4D41F5C1D7FA5CA001BC48C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C4D41F5E1D7FA980001BC48C /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C4F3B0211D7F5BC2002605FF /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		C4F3B0231D7F738C002605FF /* Blog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Blog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C4F3B0251D7F82F6002605FF /* BlogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +131,16 @@
 		C4AD6C0C1D7E28B3008D1836 /* Earth */ = {
 			isa = PBXGroup;
 			children = (
+				C4D41F581D7F8933001BC48C /* myTabViewController.swift */,
+				C45FA0371D7F1D6200C9C913 /* Blog.swift */,
 				C4F3B0231D7F738C002605FF /* Blog+CoreDataProperties.swift */,
 				C4AD6C0D1D7E28B3008D1836 /* AppDelegate.swift */,
-				C4AD6C0F1D7E28B3008D1836 /* ViewController.swift */,
-				C45FA0371D7F1D6200C9C913 /* Blog.swift */,
+				C4AD6C0F1D7E28B3008D1836 /* thisViewController.swift */,
+				C4D41F5A1D7F95F5001BC48C /* BlogTableViewCell.swift */,
+				C4F3B0251D7F82F6002605FF /* BlogTableViewController.swift */,
 				C4AD6C111D7E28B3008D1836 /* Main.storyboard */,
+				C4D41F5E1D7FA980001BC48C /* WebViewController.swift */,
+				C4D41F5C1D7FA5CA001BC48C /* DetailViewController.swift */,
 				C4AD6C171D7E28B3008D1836 /* Assets.xcassets */,
 				C4AD6C191D7E28B3008D1836 /* LaunchScreen.storyboard */,
 				C4AD6C1C1D7E28B3008D1836 /* Info.plist */,
@@ -344,12 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AD6C101D7E28B3008D1836 /* ViewController.swift in Sources */,
+				C4D41F591D7F8933001BC48C /* myTabViewController.swift in Sources */,
+				C4D41F5F1D7FA980001BC48C /* WebViewController.swift in Sources */,
+				C4D41F5B1D7F95F5001BC48C /* BlogTableViewCell.swift in Sources */,
+				C4AD6C101D7E28B3008D1836 /* thisViewController.swift in Sources */,
 				C45FA0381D7F1D6200C9C913 /* Blog.swift in Sources */,
 				C4AD6C161D7E28B3008D1836 /* Earth.xcdatamodeld in Sources */,
 				C4F3B0241D7F738C002605FF /* Blog+CoreDataProperties.swift in Sources */,
 				C4AD6C0E1D7E28B3008D1836 /* AppDelegate.swift in Sources */,
+				C4D41F5D1D7FA5CA001BC48C /* DetailViewController.swift in Sources */,
 				C4F3B0221D7F5BC2002605FF /* CoreData.swift in Sources */,
+				C4F3B0261D7F82F6002605FF /* BlogTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

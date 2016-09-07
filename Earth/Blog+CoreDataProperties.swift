@@ -14,7 +14,7 @@ import CoreData
 
 extension Blog {
 
-    @NSManaged var dateBlog: String?
+    @NSManaged var titlePost: String?
     @NSManaged var idBlog: String?
     @NSManaged var partTextBlog: String?
     @NSManaged var textBlog: String?
